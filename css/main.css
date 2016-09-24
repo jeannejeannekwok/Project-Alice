@@ -1,0 +1,218 @@
+
+
+/*************************
+General
+*************************/
+a {
+text-decoration:none;
+color: #000;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+img{
+  max-width: 100%
+}
+
+h3{
+  margin: 0 0 1em 0;
+}
+
+
+
+/*************************
+Header
+*************************/
+
+header{
+ float: left;
+ padding: 0 0 0 0;
+ width: 100%;
+}
+
+
+
+#logo{
+  background-color:#66a3ff;
+  text-align: center;
+}
+  
+#logo a{
+  color:#FFC0CB;
+}
+
+h1{
+  color: #ffff00;
+  margin-top: 0;
+  padding: 10px 0 0 0;
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 2em; 
+}
+
+h2{
+ margin: 0;
+ padding: 0 0 10px 0;
+ font-family: 'Amatic SC', cursive;
+ font-size: 3em;
+}
+
+
+
+
+
+
+/***********************
+NAV
+************************/
+
+nav {
+  background-color:#ffff00;
+  margin: 0;
+  padding: 5px 0;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+  
+
+nav a, nav a:visited{
+ margin: 0;
+ color: #000;
+ padding: 2px;
+ font-weight:bold
+}
+  
+nav a.selected, nav a:hover{
+  color: #ff80aa;
+  font-size: 1.5em;
+    }
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display:inline-block;
+  
+  
+  
+}
+  
+
+/*****************************
+Page: PORTFOLIO
+******************************/
+
+#gallery{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#gallery li{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #ccc;
+  color: #000;
+}
+  
+#gallery li a p {
+ margin: 0;
+ padding: 5%;
+ font-size: 1em;
+ font-family: 'Slabo 27px', serif;
+}
+  
+
+
+
+#wrapper
+{
+ max-width: 940px;
+ margin: 0 auto;
+ padding : 0 5%;
+}
+  
+  
+
+
+
+/*****************************
+GALLERY
+******************************/
+ 
+#gallery{
+  max-width: 940px;
+  margin: 0 auto;
+}
+  
+
+
+/*****************************
+PAGE: ABOUT
+******************************/
+.portfolio-photo{
+border-radius: 50%;
+display:block;
+margin: 0 auto;
+margin-top: 10%;
+}
+
+  
+/**********************
+FOOTER
+**********************/
+
+footer {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8em;
+  padding-top: 50px;
+  color:  #604020; 
+  clear: both;
+  text-align:center;
+}
+
+.social-icon{
+  width: 50px;
+  height: 50px;
+  margin: 50px 0 10px;
+  border-radius: 60%;
+}
+
+
+/*****************************
+PAGE: CONTACT
+******************************/
+
+.contact-info {
+    list-style: none;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.jpg'); 
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/email.png');
+}
+  
+.contact-info a{
+   display: block;
+   min-height: 20px;
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+   padding: 0 0 0 30px;
+   margin: 0 0 10px;
+}
+    
+    
+
+  
